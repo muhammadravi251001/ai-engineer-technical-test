@@ -1,0 +1,5 @@
+**Main Question**: Explain how it's different from splitting the small vs large files.
+
+When working with **small files**, such as CSVs with a few thousand rows (like `customers-100000.csv`), it is usually safe to read the entire file into memory at once. Libraries like Pandas can load the full dataset quickly, and memory usage is not a concern. Splitting or chunking the file is generally unnecessary, since the computer can handle all the data at once, making the parsing process straightforward and simple.
+
+In contrast, **large files** with millions of rows or several gigabytes of data (like `customers-2000000.csv`) require careful memory management. Loading the entire file at once can cause high memory usage or even crash the program. To handle this, the file can be read in chunks or streamed row by row, often combined with optimizations like using smaller data types, or leveraging more memory-efficient libraries such as Polars. The main goal is to reduce memory usage while still processing all the data efficiently.
