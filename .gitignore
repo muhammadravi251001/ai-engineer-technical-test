@@ -207,4 +207,4 @@ marimo/_lsp/
 __marimo__/
 
 ai-engineer-technical-test-env/
-coding-test/csv-insights/data/customers-2000000.csv
+coding-test/csv-insights/data/*.csv
