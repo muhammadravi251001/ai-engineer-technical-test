@@ -21,7 +21,7 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t receipt-ai-platform:latest .
+        docker build -t receipt-ai-platform:latest ./coding-test/receipt_ai_platform
 
     - name: Push Docker image
       run: |
