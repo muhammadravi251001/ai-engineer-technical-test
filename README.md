@@ -5,6 +5,10 @@ The test is divided into two major parts: **Engineering Knowledge AI Agent Test*
 
 For Receipt AI Platform, please try my Gradio application via this [Hugging Face Space](https://huggingface.co/spaces/muhammadravi251001/receipt_ai_platform).
 
+This is the two examples for receipt that you can download it first and then upload it to the Hugging Face Space:
+- [First Receipt](https://docelf.com/images/templates/professional_food_receipt_template.png)
+- [Second Receipt](https://docelf.com/images/templates/editable_food_receipt_template.png)
+
 ---
 
 ## Structure
