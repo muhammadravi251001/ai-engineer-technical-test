@@ -3,6 +3,8 @@
 This repository contains my solutions for the **AI Engineer Technical Test**.  
 The test is divided into two major parts: **Engineering Knowledge AI Agent Test** and **Coding Test**.
 
+For Receipt AI Platform, please try my Gradio application via this [Hugging Face Space](https://huggingface.co/spaces/muhammadravi251001/receipt_ai_platform).
+
 ---
 
 ## Structure
