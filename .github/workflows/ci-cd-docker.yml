@@ -30,7 +30,17 @@ jobs:
 
     - name: Run Docker container for testing
       run: |
-        docker run --rm -d -p 7860:7860 --name test-receipt-ai receipt-ai-platform:latest
-        sleep 10
+
+        if [ $(docker ps -a -q -f name=test-receipt-ai) ]; then
+          docker stop test-receipt-ai || true
+          docker rm test-receipt-ai || true
+        fi
+
+        docker run -d -p 7860:7860 --name test-receipt-ai receipt-ai-platform:latest
+
+        sleep 30
+
         docker logs test-receipt-ai
+
         docker stop test-receipt-ai
+        docker rm test-receipt-ai
