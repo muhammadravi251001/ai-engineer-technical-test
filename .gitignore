@@ -208,3 +208,5 @@ __marimo__/
 
 ai-engineer-technical-test-env/
 coding-test/csv-insights/data/*.csv
+coding-test/receipt_ai_platform/*.db
+coding-test/receipt_ai_platform/rerun.py
